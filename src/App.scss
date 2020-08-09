@@ -1,0 +1,12 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app__comp-container {
+  display: flex;
+  min-height: 100vh;
+}
+

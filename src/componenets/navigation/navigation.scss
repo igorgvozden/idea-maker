@@ -1,0 +1,29 @@
+.navigation {
+    margin: 0;
+    padding: 0.2em 3em;
+    display: flex;
+    background-color: black;
+    align-items: baseline;
+    flex-basis: 100%;
+}
+
+.navigation__idea-logo {
+    padding: 0.1em 0.7em 0 0.1em;
+    background-color: cyan;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navigation__idea-logo__span {
+    color: purple;
+}
+
+.navigation__idea-text {
+    margin-left: 2em;
+    color: white;
+}
+
+.navigation__idea-text__span {
+    color: grey;
+}

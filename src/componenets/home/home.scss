@@ -1,0 +1,91 @@
+.home {
+    padding: 3em 0 0 3em;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../../images/idea-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    flex-basis: 85%;
+}
+
+.home__add-idea__container {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home__add-idea__container-btn {
+    margin: 0.5em;
+    padding: 1em 0;
+    width: 200px;
+    height: 21px;
+    background-color: rgb(7, 199, 199);
+    color: white;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: 0.3s;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: cyan;
+        color: rgb(49, 49, 49);
+        box-shadow: 8px 12px 8px rgba(126, 126, 126, 0.533);
+    }
+}
+
+.home__add-idea {
+    margin: 0.5em;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 228, 228);
+    border: 4px solid rgb(228, 228, 228);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+  
+.home__add-idea__plus {
+    font-size: 80px;
+}
+
+.home__add-idea--editable {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(191, 255, 255);
+        color: rgb(49, 49, 49);
+        box-shadow: 8px 12px 8px rgba(126, 126, 126, 0.533);
+    }
+}
+
+.home__add-idea__plus--template {
+    margin: 3px;
+    font-size: 30px;
+}
+
+.home__add-idea__plus-span {
+    font-size: 26px;
+}
+
+.home__add-idea--first {
+    color: grey;
+    border: 4px solid grey;
+    
+    &:hover {
+        cursor: pointer;
+        border: 4px solid cyan;
+        color: cyan;
+        box-shadow: 8px 12px 8px rgba(126, 126, 126, 0.533);
+    }
+   
+}
+
